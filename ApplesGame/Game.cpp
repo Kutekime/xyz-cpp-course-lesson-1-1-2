@@ -26,7 +26,7 @@ namespace ApplesGame
 		}
 
 		// Init game state
-		gameState.numEatenApples = 0;
+		//gameState.numEatenApples = 0;
 		gameState.isGameOver = false;
 		gameState.timeSinceGameOver = 0.f;
 	}
@@ -37,9 +37,9 @@ namespace ApplesGame
 		{
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
 			{
-				RestartGame(gameState);
+				
 			}
-
+			RestartGame(gameState);
 			// We don't handle input in game over state
 			return;
 		}

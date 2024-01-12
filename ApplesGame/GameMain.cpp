@@ -1,6 +1,11 @@
 ﻿// ©2023, XYZ School. All rights reserved.
 // Authored by Aleksandr Rybalka (polterageist@gmail.com)
 
+//Фиксирую сложность(!!) следующую - при попытке найти "HasPlayerCollisionWithScreenBorder", 
+//чтобы понять в каких местах этот параметр используется, в "Solution Explorer" он показывает только два файла,
+//в то время как на самом деле он используется в трёх. В VS Code, в свою очередь, всё находит. В этом же редакторе
+//нашёл решение, что вроде нужно удалть скрытую папку ".vs" (пока не пробовал). Возможно у вас есть грамотное решение..
+
 #include <SFML/Graphics.hpp>
 #include <cstdlib>
 
